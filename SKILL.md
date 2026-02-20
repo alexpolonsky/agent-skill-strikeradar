@@ -1,21 +1,10 @@
 ---
 name: strikeradar
-description: Monitor US-Iran strike probability with real-time signals. Use when user asks about "Iran strike probability", "strike radar", "Iran situation", "US attack Iran", "flights over Iran", "Iran internet", "oil prices Iran", "Pentagon activity", "Polymarket Iran", "הסתברות תקיפה באיראן", "מצב איראן", "תקיפה אמריקאית", or "סטרייק ראדאר".
-license: MIT
-compatibility: Requires Node.js 18+ with tsx, and internet access
-metadata:
-  author: Alex Polonsky
-  github: https://github.com/alexpolonsky
-  version: "1.0.0"
-  keywords: geopolitics, iran, risk-monitor, strike-radar, osint
-  openclaw:
-    emoji: "🎯"
-    os:
-      - darwin
-      - linux
-    requires:
-      bins:
-        - node
+version: 1.0.0
+description: Monitor US-Iran strike probability using open-source indicators - news alerts, Iran internet connectivity, oil prices, flight traffic, military tanker detection, weather, Polymarket odds, and Pentagon activity. Use when user asks about "Iran strike probability", "strike radar", "Iran situation", "US attack Iran", "flights over Iran", "oil prices Iran", "Pentagon activity", "Polymarket Iran", "הסתברות תקיפה באיראן", "מצב איראן", "סטרייק ראדאר".
+author: Alex Polonsky (https://github.com/alexpolonsky)
+homepage: https://github.com/alexpolonsky/agent-skill-strikeradar
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux"], "requires": {"bins": ["node", "npx"]}}}
 ---
 
 # StrikeRadar - US-Iran strike probability monitor
