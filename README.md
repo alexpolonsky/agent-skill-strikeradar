@@ -2,14 +2,19 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-purple)
+[![ClawHub](https://img.shields.io/badge/ClawHub-strikeradar-blue)](https://clawhub.ai/skills/strikeradar)
 
-> **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude Code, Cursor, Codex, and other compatible clients
+> **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude Code, Cursor, Codex, and other compatible clients | **[ClawHub](https://clawhub.ai/skills/strikeradar)**
 
 [StrikeRadar](https://usstrikeradar.com/) by [Yonatan Back](https://buymeacoffee.com/back.yonatan) tracks US-Iran tension across 8 data sources and aggregates them into a single risk score. This skill wraps that data so you can check it from the terminal or let your AI agent query it directly.
 
 ## Installation
 
 ```bash
+# ClawHub
+clawdhub install strikeradar
+
+# npx
 npx skills add alexpolonsky/agent-skill-strikeradar
 ```
 
