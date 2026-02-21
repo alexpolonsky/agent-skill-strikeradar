@@ -142,20 +142,12 @@ Calls the public API at `api.usstrikeradar.com` and formats the response. No scr
 - No historical data beyond the rolling history array per signal
 - Viewer pulse data is approximate
 
-## License
+## Legal
 
-MIT - see [LICENSE](LICENSE).
+Independent open-source tool wrapping the [StrikeRadar](https://usstrikeradar.com/) API by [Yonatan Back](https://buymeacoffee.com/back.yonatan). Not affiliated with or endorsed by StrikeRadar. Probability scores are algorithmic estimates from publicly available data, not intelligence assessments. Do not use for personal, financial, or safety decisions. Provided "as is" without warranty of any kind.
 
 ## Author
 
 [Alex Polonsky](https://alexpolonsky.com) - [GitHub](https://github.com/alexpolonsky) - [Twitter/X](https://x.com/alexpo) - [LinkedIn](https://www.linkedin.com/in/alexpolonsky/)
 
-## References
-
-- [StrikeRadar](https://usstrikeradar.com/) by Yonatan Back - [support his work](https://buymeacoffee.com/back.yonatan)
-- [Agent Skills specification](https://agentskills.io/specification)
-- [Agent Skills catalog](https://github.com/alexpolonsky/agent-skills)
-
----
-
-Probability scores are algorithmic estimates from publicly available data, not intelligence assessments. Do not use for personal, financial, or safety decisions.
+Part of [Agent Skills](https://github.com/alexpolonsky/agent-skills) - [Specification](https://agentskills.io/specification)
